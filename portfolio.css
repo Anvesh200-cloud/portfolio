@@ -1,0 +1,46 @@
+.university { margin-bottom: 40px; }
+
+.univ-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 images side by side */
+  gap: 20px;
+}
+
+.univ-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.cert-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cert-card {
+  width: 300px;
+  text-align: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.cert-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.cert-card h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cert-card .resume-btn {
+  font-size: 14px;
+  padding: 8px 15px;
+}
