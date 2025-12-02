@@ -1,144 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anvesh | Professional Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anvesh Yarukala | Portfolio</title>
   
-  <!-- Minimal Open Graph for LinkedIn preview -->
-  <meta property="og:title" content="Anvesh | Professional Portfolio">
-  <meta property="og:description" content="Yarukala Anvesh, Full Stack Java Developer with 4 years of experience in Java, Spring Boot, React.js, AWS & Azure.">
-  <meta property="og:image" content="https://anvesh200-cloud.github.io/portfolio/me.jpg">
-
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  
   <link rel="stylesheet" href="portfolio.css">
-  <style>
-    body { margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; }
-
-    nav { position: fixed; top: 0; width: 100%; background: #1a1a1a; padding: 15px 0; z-index: 1000; }
-    nav ul { display: flex; justify-content: center; gap: 40px; list-style: none; margin: 0; padding: 0; }
-    nav ul li a { color: white; text-decoration: none; font-size: 18px; font-weight: bold; }
-    nav ul li a:hover { color: #4da3ff; }
-
-    header { background: linear-gradient(#000000a8, #000000a8), url('your-banner.jpg'); background-size: cover; color: white; padding: 120px 20px 80px; text-align: center; margin-top: 60px; }
-    header img { width: 160px; height: 160px; border-radius: 50%; border: 4px solid white; object-fit: cover; }
-
-    .section { padding: 50px; max-width: 1000px; margin: auto; background: white; margin-top: 40px; border-radius: 12px; }
-    h2 { border-left: 6px solid #0073e6; padding-left: 15px; color: #333; }
-    ul { line-height: 1.8; }
-
-    .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-    .skill-box { background: #eef5ff; padding: 15px; border-left: 6px solid #0073e6; border-radius: 8px; font-size: 17px; font-weight: bold; }
-
-    .cert-gallery, .edu-gallery { display: flex; gap: 20px; flex-wrap: wrap; }
-    .cert-gallery a { display: inline-block; padding: 12px 20px; background: #0073e6; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
-    .cert-gallery a:hover { background: #005bb5; }
-
-    .univ-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-    .univ-grid img { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-
-    .resume-btn { display: inline-block; padding: 12px 25px; font-size: 18px; background: #0073e6; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
-  </style>
 </head>
 <body>
 
+<!-- Navigation -->
 <nav>
   <ul>
+    <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
     <li><a href="#certifications">Certifications</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#resume">Resume</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
-<header>
-  <img src="me.jpg" alt="Your Photo" />
-  <h1>Yarukala Anvesh</h1>
-  <h3>Full Stack Java Developer (4 Years Experience)</h3>
+<!-- Header -->
+<header id="home">
+  <img src="images/me.jpg" alt="Anvesh Yarukala">
+  <h1>Anvesh Yarukala</h1>
+  <h3>Java Full Stack Developer | 4+ Years Experience</h3>
+  <p>
+    <a href="https://www.linkedin.com/in/anveshyarukala" target="_blank">LinkedIn</a> |
+    <a href="mailto:anveshyarukala@gmail.com">Email</a>
+  </p>
 </header>
 
+<!-- About -->
 <div class="section" id="about">
   <h2>About Me</h2>
-  <p>I am a Full Stack Java Developer with 4 years of experience building scalable, secure, and high-performance applications using Java, Spring Boot, React.js, MySQL, and cloud technologies (AWS & Azure). I specialize in backend architecture, REST API design, cloud deployment, and full-stack web development.</p>
+  <p>
+    Hello! My name is <strong>Yarukala Anvesh</strong>, and I am a Java Full Stack Developer with 4+ years of experience delivering scalable, secure, and high-performance applications in the <strong>banking and healthcare domains</strong>.
+  </p>
+  <p>
+    Professionally, I specialize in <strong>Java, Spring Boot, Hibernate, React.js, Angular</strong>, and cloud technologies (<strong>AWS & Azure</strong>). I have hands-on experience in <strong>microservices architecture, AI integration, RESTful APIs, and CI/CD pipelines</strong>.
+  </p>
+  <p>
+    Beyond work, I enjoy exploring <strong>new technologies and frameworks</strong>, solving challenging problems, and staying active. I am also fascinated by <strong>data analysis and AI applications</strong>.
+  </p>
 </div>
 
+<!-- Skills -->
 <div class="section" id="skills">
   <h2>Technical Skills</h2>
   <div class="skills-grid">
-    <div class="skill-box">Java</div>
-    <div class="skill-box">Spring Boot</div>
-    <div class="skill-box">Hibernate / JPA</div>
-    <div class="skill-box">React.js</div>
-    <div class="skill-box">JavaScript</div>
-    <div class="skill-box">HTML & CSS</div>
-    <div class="skill-box">REST APIs</div>
-    <div class="skill-box">MySQL</div>
-    <div class="skill-box">Git & GitHub</div>
-    <div class="skill-box">AWS Services</div>
-    <div class="skill-box">Azure Cloud</div>
-    <div class="skill-box">Docker (Basics)</div>
+    <div class="skill-box"><i class="fab fa-html5"></i>HTML5</div>
+    <div class="skill-box"><i class="fab fa-css3-alt"></i>CSS3</div>
+    <div class="skill-box"><i class="fab fa-js-square"></i>JavaScript / TypeScript</div>
+    <div class="skill-box"><i class="fab fa-react"></i>React.js</div>
+    <div class="skill-box"><i class="fab fa-angular"></i>Angular</div>
+    <div class="skill-box"><i class="fab fa-java"></i>Java</div>
+    <div class="skill-box"><i class="fas fa-cogs"></i>Spring Boot</div>
+    <div class="skill-box"><i class="fas fa-database"></i>Hibernate / JPA</div>
+    <div class="skill-box"><i class="fas fa-network-wired"></i>RESTful APIs</div>
+    <div class="skill-box"><i class="fas fa-project-diagram"></i>Microservices</div>
+    <div class="skill-box"><i class="fas fa-envelope"></i>RabbitMQ / ActiveMQ</div>
+    <div class="skill-box"><i class="fas fa-database"></i>MySQL / PostgreSQL / MongoDB / Oracle SQL</div>
+    <div class="skill-box"><i class="fab fa-aws"></i>AWS Cloud</div>
+    <div class="skill-box"><i class="fab fa-windows"></i>Azure Cloud</div>
+    <div class="skill-box"><i class="fab fa-docker"></i>Docker</div>
+    <div class="skill-box"><i class="fas fa-server"></i>Kubernetes</div>
+    <div class="skill-box"><i class="fas fa-tools"></i>Jenkins / CI/CD</div>
+    <div class="skill-box"><i class="fas fa-vial"></i>Unit Testing</div>
+    <div class="skill-box"><i class="fas fa-desktop"></i>Selenium / Postman</div>
+    <div class="skill-box"><i class="fab fa-python"></i>Python / AI Integration</div>
+    <div class="skill-box"><i class="fas fa-brain"></i>TensorFlow</div>
+    <div class="skill-box"><i class="fas fa-brain"></i>OOPS / DSA</div>
+    <div class="skill-box"><i class="fas fa-users"></i>Agile / Scrum / Kanban</div>
+    <div class="skill-box"><i class="fas fa-chart-bar"></i>Data Analysis</div>
   </div>
 </div>
 
+<!-- Experience -->
 <div class="section" id="experience">
-  <h2>Experience</h2>
-  <ul>
-    <li><strong>Full Stack Java Developer (4 Years)</strong></li>
+  <h2>Professional Experience</h2>
+  <div class="experience-card">
+    <h3>Senior Java Full Stack Developer</h3>
+    <p>Citi | Irving, TX | Feb 2024 – Present</p>
     <ul>
-      <li>Developed complex enterprise applications using Java & Spring Boot.</li>
-      <li>Created dynamic UI using React.js with state management.</li>
-      <li>Designed and optimized REST APIs with high performance.</li>
-      <li>Implemented cloud deployments (AWS EC2, S3, Lambda, Azure App Services).</li>
-      <li>Worked on CI/CD pipelines and Docker-based microservices.</li>
+      <li>Led module development for onboarding platform using Spring Boot and ReactJS, improving onboarding speed by 35%.</li>
+      <li>Designed cloud-native microservices on AWS, reducing latency by 40%.</li>
+      <li>Integrated AI-driven fraud detection, reducing fraudulent activities by 25%.</li>
+      <li>Migrated Oracle DB to PostgreSQL, improving data retrieval by 20%.</li>
+      <li>Developed REST APIs for third-party fintech integrations, boosting interoperability by 30%.</li>
+      <li>Implemented CI/CD pipelines with Jenkins and Docker, accelerating deployment frequency by 50%.</li>
+      <li>Mentored a team of 4 junior developers and championed Agile practices.</li>
     </ul>
-  </ul>
+  </div>
+
+  <div class="experience-card">
+    <h3>Software Engineer</h3>
+    <p>Apollo Hospitals | India | Jul 2021 – Aug 2023</p>
+    <ul>
+      <li>Spearheaded hospital management module development using Spring Boot and Angular.</li>
+      <li>Migrated legacy systems to cloud-based platforms, increasing uptime to 99.9%.</li>
+      <li>Designed real-time data pipelines with Kafka, improving response times.</li>
+      <li>Developed AI predictive analytics for patient diagnosis, improving accuracy by 30%.</li>
+      <li>Implemented HIPAA-compliant security enhancements, reducing vulnerabilities by 15%.</li>
+    </ul>
+  </div>
 </div>
 
+<!-- Projects -->
 <div class="section" id="projects">
   <h2>Projects</h2>
-  <ul>
-    <li><strong>Project 1:</strong> Full Stack Spring Boot + React application.</li>
-    <li><strong>Project 2:</strong> Analytics dashboard with charts and real-time data.</li>
-    <li><strong>Project 3:</strong> Cloud-deployed app using AWS or Azure.</li>
-  </ul>
+  <div class="projects-gallery">
+    <div class="project-card">
+      <h3>Banking Customer Onboarding System</h3>
+      <p>Full-stack Java app automating customer onboarding for banks using Spring Boot and Angular. Reduced onboarding time by 30%.</p>
+    </div>
+    <div class="project-card">
+      <h3>Healthcare Patient Monitoring Dashboard</h3>
+      <p>Real-time patient monitoring dashboard using Spring Boot, React.js, Kafka, and PostgreSQL. Integrated predictive analytics improving efficiency by 25%.</p>
+    </div>
+    <div class="project-card">
+      <h3>Bank Loan Analytics Platform</h3>
+      <p>Loan analytics platform to evaluate risk and performance of bank loans. Built with Spring Boot and Angular microservices for secure data handling.</p>
+    </div>
+  </div>
 </div>
 
+<!-- Certifications -->
 <div class="section" id="certifications">
   <h2>Certifications</h2>
   <div class="cert-gallery">
     <div class="cert-card">
-      <h4>AWS Certified Solutions Architect</h4>
-      <a class="resume-btn" href="aws-cert.pdf" target="_blank">View Certificate</a>
+      <h4>AWS Certified Solutions Architect – Associate</h4>
+      <a class="resume-btn" href="images/aws-cert.pdf" target="_blank">View Certificate</a>
     </div>
     <div class="cert-card">
-      <h4>Microsoft Azure Developer Associate</h4>
-      <a class="resume-btn" href="azure-cert.pdf" target="_blank">View Certificate</a>
+      <h4>Microsoft Azure Solutions</h4>
+      <a class="resume-btn" href="images/azure-cert.pdf" target="_blank">View Certificate</a>
     </div>
   </div>
 </div>
 
-
+<!-- Education -->
 <div class="section" id="education">
   <h2>Education</h2>
-
   <div class="university">
-    <h3>Guru Nanak Institution Technical Campus - Hyderabad, India</h3>
+    <h3>Southern Arkansas University, USA</h3>
     <div class="univ-grid">
-      <img src="223.jpg" alt="Guru Nanak Institution - Photo 1">
-      <img src="224.jpg" alt="Guru Nanak Institution - Photo 2">
+      <img src="images/225.jpg" alt="SAU Campus Photo 1">
+      <img src="images/226.jpg" alt="SAU Campus Photo 2">
     </div>
   </div>
 
   <div class="university">
-    <h3>Southern Arkansas University - Arkansas, USA</h3>
+    <h3>Jawaharlal Nehru Technological University, India</h3>
     <div class="univ-grid">
-      <img src="225.jpg" alt="Southern Arkansas University - Photo 1">
-      <img src="226.jpg" alt="Southern Arkansas University - Photo 2">
+      <img src="images/223.jpg" alt="JNTU Campus Photo 1">
+      <img src="images/224.jpg" alt="JNTU Campus Photo 2">
     </div>
   </div>
 </div>
+
+<!-- Resume -->
+<div class="section" id="resume">
+  <h2>Resume</h2>
+  <a class="resume-btn" href="images/Anvesh Yarukala.pdf" target="_blank">View Resume</a>
+</div>
+
+<!-- Contact -->
+<div class="section" id="contact">
+  <h2>Contact</h2>
+  <p>If you would like to get in touch, feel free to reach out via phone or email:</p>
+  <ul class="contact-info">
+    <li><i class="fas fa-phone"></i> <a href="tel:+16824076885">+1 (682) 407-6885</a></li>
+    <li><i class="fas fa-envelope"></i> <a href="mailto:anveshyarukala@gmail.com">anveshyarukala@gmail.com</a></li>
+    <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/anveshyarukala" target="_blank">LinkedIn Profile</a></li>
+  </ul>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Anvesh Yarukala | <a href="https://www.linkedin.com/in/anveshyarukala" target="_blank">LinkedIn</a> | <a href="mailto:anveshyarukala@gmail.com">Email</a></p>
+</footer>
+
 </body>
 </html>
 
