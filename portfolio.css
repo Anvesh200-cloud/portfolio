@@ -38,7 +38,7 @@ nav ul li a:hover {
 
 /* Header */
 header {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/banner.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('banner.jpg') center/cover no-repeat;
   text-align: center;
   color: white;
   padding: 120px 20px 80px;
@@ -277,7 +277,4 @@ footer a:hover {
   header h1 { font-size: 2rem; }
   header h3 { font-size: 1.1rem; }
   .skills-grid { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
-  .projects-gallery { grid-template-columns: 1fr; }
-  .cert-gallery { flex-direction: column; align-items: center; }
-  .univ-grid { grid-template-columns: 1fr; }
 }
